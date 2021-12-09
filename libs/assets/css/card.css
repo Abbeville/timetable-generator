@@ -1,0 +1,271 @@
+/*@import url('http://fonts.googleapis.com/css?family=Raleway:400,200');
+body {   font-family: Helvetica, san-serif;
+         background: -webkit-linear-gradient(90deg, #00aaee 10%, #DD2476 90%);  Chrome 10+, Saf5.1+ 
+         background:    -moz-linear-gradient(90deg, #00aaee 10%, #DD2476 90%);  FF3.6+ 
+         background:     -ms-linear-gradient(90deg, #00aaee 10%, #DD2476 90%);  IE10 
+         background:      -o-linear-gradient(90deg, #00aaee 10%, #DD2476 90%);  Opera 11.10+ 
+         background:         linear-gradient(90deg, #00aaee 10%, #DD2476 90%);  W3C  }
+.transition { transition: .3s cubic-bezier(.3, 0, 0, 1.3) }
+.card {
+    background-color: #fff;
+    bottom: 0;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+    height: 300px;
+    left: 0;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    right: 0;
+    top: 0;
+    width: 300px;
+
+}
+.card:hover {
+    height: 450px;
+    width: 300px;
+}
+.card:hover .cta-container {
+    display: inline;
+    margin-top: 380px;
+}
+.card:hover .card_circle {
+    background-size: cover;
+    border-radius: 0;
+    margin-top: -130px;
+}
+.card:hover h2 {
+    background: #3487f7;
+    color: #fff;
+    margin-top: 100px;
+    padding: 5px;
+}
+.card:hover h2 small { color: #fff }
+.card:hover p { 
+    position: absolute;
+    margin-top: 300px ;
+}
+.card_circle {
+    background: url('http://lorempixel.com/400/200') no-repeat center bottom;
+    background-color: #3487f7;
+    background-size: cover;
+    border-radius: 50%;
+    height: 400px;
+    margin-left: -75px;
+    margin-top: -270px;
+    position: absolute;
+    width: 450px;
+}
+h2 {
+    color: #3487f7;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    top: 150px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 9999;
+}
+p {
+    color: rgba(0,0,0,.6);
+    font-family: 'Raleway', sans-serif;
+    font-size: 100%;
+    font-weight: normal;
+    top: 200px;
+    position: absolute;
+    text-align: center;
+    z-index: 9999;
+}
+.cta-container {
+    display: none;
+    margin-top: 320px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 9999;
+}
+.cta {
+    -moz-border-radius: 2px;
+    -moz-transition: 0.2s ease-out;
+    -ms-transition: 0.2s ease-out;
+    -o-transition: 0.2s ease-out;
+    -webkit-border-radius: 2px;
+    -webkit-transition: 0.2s ease-out;
+    background-clip: padding-box;
+    border: 2px solid #3487f7;
+    border-radius: 2px;
+    color: #3487f7;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    height: 36px;
+    letter-spacing: 0.5px;
+    line-height: 36px;
+    margin-bottom: 15px;
+    padding: 0 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.2s ease-out;
+}
+.cta:hover {
+    background-color: #3487f7;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #fff;
+    -moz-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}*/
+
+
+/*.wrapper { position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: url(http://c.boylett.uk/images/wallpapers/002.jpg); background-size: 100% 100% }*/
+/*.food { position: absolute !important; top: 50%; left: 50%; margin: -197px 0 0 -310px }*/
+.food
+{
+    position: relative;
+    width: 100%;
+    height: 394px;
+    background: #FFF;
+    border-radius: 2px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, .5);
+}
+
+.food > .cover
+{
+    position: relative;
+    height: 260px;
+    background: transparent center no-repeat;
+    background-size: 100% auto;
+    border-radius: 2px 2px 0 0;
+}
+
+.food > .cover > label
+{
+    position: absolute;
+    top: 22px;
+    left: -15px;
+    height: 40px;
+    padding: 0 30px 0 63px;
+    line-height: 33px;
+    vertical-align: middle;
+    font-family: sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #FFF;
+    text-shadow: 0 1px 2px #000;
+    background: rgba(65, 131, 196, 0.73);
+}
+
+.food > .cover > label > i
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.food > .cover > label > i > svg
+{
+    margin: 8px;
+}
+
+.food > .cover > .download
+{
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 47px;
+    height: 47px;
+    background: rgba(51, 193, 210, .6);
+    border-radius: 100%;
+}
+
+.food > .cover > .download:hover { background: #33C1D2 }
+
+.food > .cover > .download > svg
+{
+    margin: 12px 10px 0;
+}
+
+.food > .info
+{
+    position: relative;
+    height: 134px;
+    overflow: hidden;
+    border-radius: 0 0 2px 2px;
+}
+
+.food > .info > .recipe
+{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 134px;
+    height: 134px;
+    background: #4183C4; ;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #FFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 0 0 0 2px;
+}
+
+.food > .info > .recipe:hover {
+    background: #1573CF;
+    /*transform: scale(1.1);*/
+}
+
+.food > .info > .recipe > i
+{
+    display: block;
+    margin: 38px 0 15px;
+}
+
+.food > .info > .content
+{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 154px;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #888;
+}
+
+.food > .info > .content strong { font-weight: normal; color: #333 }
+.food > .info > .content .pad-right { padding-right: 20px }
+.food > .info > .content .border-right { border-right: 1px solid #D9D9D9 }
+.food > .info > .content .consumers img, .food > .info > .content .consumers span { display: inline-block; width: 32px; height: 32px; margin: 0 2px 0 0; line-height: 32px; vertical-align: middle; border-radius: 100% }
+.food > .info > .content .consumers span { margin: 0 }
+
+.food > .info > .content h1
+{
+    margin: 0 0 10px;
+    font-size: 26px;
+    font-weight: normal;
+    color: #333;
+}
+
+.food > .info > .content .stars, .food > .info > .content .stars > em
+{
+    display: block;
+    width: 99px;
+    height: 18px;
+    margin: 0 auto 7px;
+    text-align: left;
+    background: url(http://c.boylett.uk/generic/image_png_00004.png);
+}
+
+.food > .info > .content .stars > em
+{
+    width: 99px;
+    height: 18px;
+    margin: 0;
+    background: url(http://c.boylett.uk/generic/image_png_00004.png);
+    background-position: 0 -18px;
+}

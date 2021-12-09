@@ -1,0 +1,50 @@
+body{
+    margin:0;
+   
+}
+.logbox{
+    margin-top: 10%;
+   // margin-bottom: 20%;
+    border-radius:500%;
+  //  width: 50%;
+    height: 60%;
+    background-color: #ececec;
+    //float: inside;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 10px 5px 7px 2px #dcdcdc;
+   /*background: -moz-repeating-linear-gradient(0deg, lightgrey 5%, white 10%,gray 20%,blue 30% );  For Firefox 3.6 to 15 */
+/*-moz-animation: myfirst 3s;*/
+}
+/*.logbox:hover{
+   -moz-animation: myfirst 10s; 
+}*/
+.details{
+   // margin-left: 10%;
+   padding-top: 20%;
+   padding-left: 25%;
+}
+.details input{
+    //margin-left:  50px;
+ //   font-size: 20px;
+    font-family: myFirstFont;
+}
+/*@-moz-keyframes myfirst {
+  from{padding:0px;}
+  to{padding: 5px;}
+
+}*/
+#dialog{
+    height: 20%;
+   background-color: powderblue;
+}
+
+ #go{
+   border-radius: 15px;
+   /*height: 30px;*/
+   padding: 10px 10px;
+   font-size: 20px;
+   font-family:sans-serif;
+   border-color: white;
+   margin-left: 30%;
+}

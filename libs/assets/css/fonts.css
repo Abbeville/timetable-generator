@@ -1,0 +1,96 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 28, 2015, 2:21:26 AM
+    Author     : holhujay
+*/
+
+/*================================amita=====================*/
+@font-face {
+    font-family: 'Amita';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Amita'), local('Amita-Regular'), url(../fonts/Amita.woff2) format('woff2'), url(../fonts/Amita.woff) format('woff');
+}
+
+/*===================================Ross=========================*/
+@font-face {
+    font-family: 'Ross';
+    font-style: normal; 
+    src: url(../fonts/Ross.ttf);
+}
+/*===================================Break=========================*/
+@font-face {
+    font-family: 'Break';
+    font-style: normal; 
+    src: url(../fonts/BreakRegular.ttf);
+}
+/*===================================Lobster=========================*/
+@font-face {
+    font-family: 'Lobster';
+    font-style: normal; 
+    src: url(../fonts/Lobster.otf);
+}
+/*===================================RissaTypeface=========================*/
+@font-face {
+    font-family: 'RissaTypeface';
+    font-style: normal; 
+    src: url(../fonts/RissaTypeface.ttf);
+}
+/*===================================Zelda=========================*/
+@font-face {
+    font-family: 'Zelda';
+    font-style: normal; 
+    src: url(../fonts/ZELDARegular.ttf);
+}
+/*===================================ChocFactory=========================*/
+@font-face {
+    font-family: 'ChocFactory';
+    font-style: normal; 
+    src: url(../fonts/chocolateFactory.ttf);
+}
+/*===================================isuck=========================*/
+@font-face {
+    font-family: 'isuck';
+    font-style: normal; 
+    src: url(../fonts/suckgolf.ttf);
+}
+/*===================================zincboom=========================*/
+@font-face {
+    font-family: 'zincboom';
+    font-style: normal; 
+    src: url(../fonts/zincboom.ttf);
+}
+/*===================================msd=========================*/
+@font-face {
+    font-family: 'msd';
+    font-style: normal; 
+    src: url(../fonts/msd_rounded_Light.ttf);
+}
+/*===================================Ailerons=========================*/
+@font-face {
+    font-family: 'Ailerons';
+    font-style: normal; 
+    src: url(../fonts/Ailerons.ttf);
+}
+/*===================================Arkhip=========================*/
+@font-face {
+    font-family: 'Arkhip';
+    font-style: normal; 
+    src: url(../fonts/Arkhip_font.ttf);
+}
+/*===================================Lombok=========================*/
+@font-face {
+    font-family: 'Lombok';
+    font-style: normal; 
+    src: url(../fonts/Lombok.otf);
+}
+/*===================================Monthoers=========================*/
+@font-face {
+    font-family: 'Monthoers';
+    font-style: normal; 
+    src: url(../fonts/Monthoers.ttf);
+}

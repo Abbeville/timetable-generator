@@ -1,0 +1,96 @@
+body{
+    left: 0;
+    margin: 0;
+}
+.requir{
+    float: left;
+    width: 15%;
+    margin-top: 48px;
+    //margin-bottom: 20px;
+    height: 93%;
+/*    top: 30pt;
+    bottom: 0;*/
+    background-color: whitesmoke;
+    border-radius: 10px;
+    position: fixed;
+  
+        
+}
+#he{
+    margin-top: 5px;
+    //height: 6%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   // background-color:white ;
+}
+.liss a{
+    color: captiontext;
+    padding: 6px 6px;
+    line-break: normal;
+  font-size: 12px;
+  margin-top: 20px;
+    word-wrap: normal;
+}
+.liss  a:hover{
+       background-color: #dcdcdc;
+      
+}
+.liss ul {
+      margin-top: 3px;    
+     padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.liss{
+    overflow-y: scroll;
+     height: 93%;
+    //position: fixed;
+}
+
+.stud{
+    width: 69%;
+    float: right;
+    margin-top:  40px;
+    margin-right: 15%;
+    //margin-left: 20%;
+   background-color: whitesmoke;
+   //height: 100%;
+   border-style: hidden;        
+   border-color: captiontext;
+   border-radius: 40px;
+}
+#intro{
+   margin: 0;
+    border-radius: 30px;
+    background-color: lightblue;
+}
+#intro >h4{
+    text-align: center;
+    font-size: 20px;
+    padding: 15px 20px;
+}
+.stud > p{
+    text-align: center;
+}
+input{
+   padding: 3px 3px;
+   //margin-left: 50px;
+}
+form{
+     margin-left: 50px;
+     background-color: transparent;
+     margin-right: 50px;
+}
+fieldset{
+    margin-top: 10px;
+    background-color:#eeeeee;
+    border-color: transparent;
+    border-radius: 5px;
+    margin-right: 50px;
+    box-shadow: 0px  5px 5px #dcdcdc;
+    padding-left: 50px;
+     
+}
+legend{
+    color: captiontext;
+}

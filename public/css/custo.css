@@ -1,0 +1,173 @@
+ 
+/* 
+    Created on : Oct 18, 2014, 3:23:36 AM
+    Author     : holhujay
+*/
+
+/*@import url(http://fonts.googleapis.com/css?family=Capriola);*/
+#panel-tab-oZq3,
+#panel-tab-oZq3 ul,
+#panel-tab-oZq3 ul li,
+#panel-tab-oZq3 ul li a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    line-height: 1;
+    display: block;
+    position: relative;
+    font-family: Capriola, Helvetica, sans-serif;
+}
+#panel-tab-oZq3 {
+    width: 100%;
+    height: 32px;
+    padding-bottom: 1px;
+    margin-bottom:  1px;
+}
+#panel-tab-oZq3.align-right {
+    float: right;
+}
+#panel-tab-oZq3.align-right ul li {
+    float: right;
+    margin-right: 0;
+    margin-left: 4px;
+}
+#panel-tab-oZq3.align-right ul li:first-child,
+#panel-tab-oZq3.align-right ul li:first-child > a {
+    border-bottom-right-radius: 3px;
+}
+#panel-tab-oZq3 #bg-one,
+#panel-tab-oZq3 #bg-two,
+#panel-tab-oZq3 #bg-three,
+#panel-tab-oZq3 #bg-four {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+#panel-tab-oZq3 #bg-one {
+    height: 5px;
+    /*#0f71ba*/
+    background: #0f71ba;
+    z-index: 999;
+}
+#panel-tab-oZq3 #bg-two {
+    /*height: 59px;*/
+    z-index: 2;
+    background: url('imges/bg.png');
+}
+#panel-tab-oZq3 #bg-three {
+    bottom: 4px;
+    height: 20px;
+    z-index: 3;
+    background: #222222;
+    background: -moz-linear-gradient(top, #555555 0%, #222222 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #555555), color-stop(100%, #222222));
+    background: -webkit-linear-gradient(top, #555555 0%, #222222 100%);
+    background: -o-linear-gradient(top, #555555 0%, #222222 100%);
+    background: -ms-linear-gradient(top, #555555 0%, #222222 100%);
+    background: linear-gradient(to bottom, #555555 0%, #222222 100%);
+}
+#panel-tab-oZq3 #bg-four {
+    bottom: 4px;
+    height: 55px;
+    z-index: 4;
+    background: url('iages/bg.png');
+}
+#panel-tab-oZq3 ul {
+    height: auto;
+    /*padding: 2px;*/
+}
+#panel-tab-oZq3 ul li {
+    background: #222222;
+    background: -moz-linear-gradient(top, #555555 0%, #222222 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #555555), color-stop(100%, #222222));
+    background: -webkit-linear-gradient(top, #555555 0%, #222222 100%);
+    background: -o-linear-gradient(top, #555555 0%, #222222 100%);
+    background: -ms-linear-gradient(top, #555555 0%, #222222 100%);
+    background: linear-gradient(to bottom, #555555 0%, #222222 100%);
+    float: left;
+    margin-right: 4px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    z-index: 5;
+}
+#panel-tab-oZq3 ul li a {
+    padding: 8px 13px 8px 13px;
+    margin-bottom: 2px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    color: #eeeeee;
+    font-size: 13px;
+    text-decoration: none;
+}
+#panel-tab-oZq3 ul li:first-child,
+#panel-tab-oZq3 ul li:first-child > a {
+    border-bottom-left-radius: 3px;
+}
+#panel-tab-oZq3 ul li:hover,
+#panel-tab-oZq3 ul li.active {
+    background: #0f71ba;
+    background: -moz-linear-gradient(top, #3fa4f0 0%, #0f71ba 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3fa4f0), color-stop(100%, #0f71ba));
+    background: -webkit-linear-gradient(top, #3fa4f0 0%, #0f71ba 100%);
+    background: -o-linear-gradient(top, #3fa4f0 0%, #0f71ba 100%);
+    background: -ms-linear-gradient(top, #3fa4f0 0%, #0f71ba 100%);
+    background: linear-gradient(to bottom, #3fa4f0 0%, #0f71ba 100%);
+}
+#panel-tab-oZq3 ul li a:hover,
+#panel-tab-oZq3 ul li.active > a {
+    background: url('images/bg.png');
+    color: #ffffff;
+}
+
+
+/*this segment is for the tags plugin styles*/
+
+.bootstrap-tagsinput {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  display: inline-block;
+  padding: 4px 6px;
+  margin-bottom: 10px;
+  color: #555;
+  vertical-align: middle;
+  border-radius: 4px;
+  max-width: 100%;
+  line-height: 22px;
+  cursor: text;
+}
+.bootstrap-tagsinput input {
+  border: none;
+  box-shadow: none;
+  outline: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  width: auto !important;
+  max-width: inherit;
+}
+.bootstrap-tagsinput input:focus {
+  border: none;
+  box-shadow: none;
+}
+.bootstrap-tagsinput .tag {
+  margin-right: 2px;
+  color: white;
+}
+.bootstrap-tagsinput .tag [data-role="remove"] {
+  margin-left: 8px;
+  cursor: pointer;
+}
+.bootstrap-tagsinput .tag [data-role="remove"]:after {
+  content: "x";
+  padding: 0px 2px;
+}
+.bootstrap-tagsinput .tag [data-role="remove"]:hover {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.bootstrap-tagsinput .tag [data-role="remove"]:hover:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
